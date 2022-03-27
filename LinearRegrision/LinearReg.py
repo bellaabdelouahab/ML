@@ -91,7 +91,7 @@ lin_reg.fit(X_poly,Y)
 # print(lin_reg.predict(X_poly))
 print(Y)
 # X=[i[0] for i in X]
-# Y=[i[0] for i in Y]
+# Y=[i[0] for i in Y] 
 fit=Fit(X,Y)
 fit.Train(Activation="Regretion-Logistique")#,multi=False)
 Ynew=[]
